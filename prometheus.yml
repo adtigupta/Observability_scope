@@ -29,10 +29,10 @@ scrape_configs:
       - targets: ["localhost:9090"]
 
 
-  - job_name: "Docker"
+  - job_name: "Aditi ka Cadvisor-----Docker"
     static_configs:
       - targets: ["cadvisor:8080"]
 
-  - job_name: "NodeExporter"
+  - job_name: "Aditi kaa NodeExporter"
     static_configs:
       - targets: ["node-exporter:9100"]
